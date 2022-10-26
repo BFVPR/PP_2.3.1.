@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12310ef6-4edb-46b8-9a66-521311b023c5" name="Changes" comment="500 eroror">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf139b87-6170-4008-b2c8-a1f4b1c71ac2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf139b87-6170-4008-b2c8-a1f4b1c71ac2.xml" afterDir="false" />
+    <list default="true" id="12310ef6-4edb-46b8-9a66-521311b023c5" name="Changes" comment="500 eroror. Не работает delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspaceidea/PP_2_2_1_spring_hibernate-master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.40114942&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;cdc042a418f7ced2308d26b2addc0c16&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Fisher/Downloads/2.3.1-main",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.40114942",
+    "spring.configuration.checksum": "34a521e4ab7b08c5ccfa5a60615fe7d7"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspaceidea\PP_2.3.1\src\main\webapp\WEB-INF" />
@@ -176,7 +171,8 @@
       <workItem from="1666802819728" duration="6707000" />
       <workItem from="1666810196565" duration="573000" />
       <workItem from="1666812224123" duration="1157000" />
-      <workItem from="1666814429721" duration="1503000" />
+      <workItem from="1666814429721" duration="1695000" />
+      <workItem from="1666816564700" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1666732416861</created>
@@ -192,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666770998694</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="500 eroror. Не работает delete">
+      <created>1666816011665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666816011665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="500 eroror" />
-    <option name="LAST_COMMIT_MESSAGE" value="500 eroror" />
+    <MESSAGE value="500 eroror. Не работает delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="500 eroror. Не работает delete" />
   </component>
 </project>
