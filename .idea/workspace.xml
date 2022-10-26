@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12310ef6-4edb-46b8-9a66-521311b023c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../PP_2.3.1/.gitignore" afterDir="false" />
+    <list default="true" id="12310ef6-4edb-46b8-9a66-521311b023c5" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/../PP_2.3.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PP_2.3.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2.3.1/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PP_2.3.1/src/main/java/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2.3.1/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PP_2.3.1/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2.3.1/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/workspaceidea/PP_2.3.1/src/main/webapp/WEB-INF",
+    "last_opened_file_path": "C:/workspaceidea/PP_2_2_1_spring_hibernate-master",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.40114942",
@@ -157,8 +160,17 @@
       <option name="presentableId" value="Default" />
       <updated>1666731413247</updated>
       <workItem from="1666731414975" duration="391000" />
-      <workItem from="1666731881129" duration="474000" />
+      <workItem from="1666731881129" duration="710000" />
+      <workItem from="1666762254819" duration="1967000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1666732416861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666732416861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

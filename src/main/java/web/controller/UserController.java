@@ -10,7 +10,7 @@ import web.service.UserServiceImpl;
 
 
 @Controller
-@RequestMapping("/")
+//@RequestMapping("/")
 public class UserController {
 
     private final UserService userService;
@@ -21,7 +21,7 @@ public class UserController {
     }
 
 
-    @GetMapping()
+    @GetMapping("/")
     public String showUsers(ModelMap model) {
         model.addAttribute("users", userService.showUsers());
         return "users";
@@ -30,7 +30,7 @@ public class UserController {
     @GetMapping("/{id}")
     public String showUserById(@PathVariable("id") int id, ModelMap model) {
         model.addAttribute("users", userService.showUserById(id));
-        return "singeuser";
+        return "singleuser";
     }
 
     @GetMapping("/new")
