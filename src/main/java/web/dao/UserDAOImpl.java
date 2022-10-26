@@ -1,5 +1,6 @@
 package web.dao;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import web.entity.User;
 
@@ -11,6 +12,7 @@ import static javax.swing.UIManager.get;
 
 @Repository
 public class UserDAOImpl implements UserDAO {
+
 
     @PersistenceContext
     private final EntityManager entityManager;

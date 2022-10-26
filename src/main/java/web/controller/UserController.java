@@ -6,22 +6,21 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import web.entity.User;
 import web.service.UserService;
-import web.service.UserServiceImpl;
 
 
 @Controller
-//@RequestMapping("/")
+@RequestMapping("/")
 public class UserController {
 
     private final UserService userService;
 
     @Autowired
-    public UserController(UserServiceImpl userServiceImpl) {
-        this.userService = userServiceImpl;
+    public UserController(UserService userService) {
+        this.userService = userService;
     }
 
 
-    @GetMapping("/")
+    @GetMapping()
     public String showUsers(ModelMap model) {
         model.addAttribute("users", userService.showUsers());
         return "users";
@@ -34,7 +33,7 @@ public class UserController {
     }
 
     @GetMapping("/new")
-    public String newUser(@ModelAttribute("users") User user){
+    public String newUser(@ModelAttribute("users") User user) {
         return "new";
     }
 

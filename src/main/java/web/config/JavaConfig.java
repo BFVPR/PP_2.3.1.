@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -87,6 +88,7 @@ public class JavaConfig implements WebMvcConfigurer {
         Properties properties = new Properties();
         properties.put("hibernate.dialect", env.getRequiredProperty("hibernate.dialect"));
         properties.put("hibernate.show_sql", env.getRequiredProperty("hibernate.show_sql"));
+
         return properties;
     }
 
@@ -95,7 +97,7 @@ public class JavaConfig implements WebMvcConfigurer {
         LocalContainerEntityManagerFactoryBean entityManager = new LocalContainerEntityManagerFactoryBean();
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         entityManager.setDataSource(getDataSource());
-        entityManager.setPackagesToScan("web.model");
+        entityManager.setPackagesToScan("web.entity");
         entityManager.setJpaVendorAdapter(vendorAdapter);
         entityManager.setJpaProperties(hibernateProperties());
         return entityManager;
@@ -117,4 +119,6 @@ public class JavaConfig implements WebMvcConfigurer {
     public EntityManager entityManager(EntityManagerFactory entityManagerFactory) {
         return entityManagerFactory.createEntityManager();
     }
+
+
 }
