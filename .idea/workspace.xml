@@ -9,9 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12310ef6-4edb-46b8-9a66-521311b023c5" name="Changes" comment="500 eroror. Не работает delete">
+    <list default="true" id="12310ef6-4edb-46b8-9a66-521311b023c5" name="Changes" comment="Работает!">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf139b87-6170-4008-b2c8-a1f4b1c71ac2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf139b87-6170-4008-b2c8-a1f4b1c71ac2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Fisher/Downloads/2.3.1-main",
+    "last_opened_file_path": "C:/workspaceidea/PP_2.3.1",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.40114942",
@@ -172,7 +175,9 @@
       <workItem from="1666810196565" duration="573000" />
       <workItem from="1666812224123" duration="1157000" />
       <workItem from="1666814429721" duration="1695000" />
-      <workItem from="1666816564700" duration="999000" />
+      <workItem from="1666816564700" duration="1025000" />
+      <workItem from="1666817714559" duration="92000" />
+      <workItem from="1666884232599" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1666732416861</created>
@@ -195,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666816011665</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Работает!">
+      <created>1666817634412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666817634412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +228,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="500 eroror" />
     <MESSAGE value="500 eroror. Не работает delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="500 eroror. Не работает delete" />
+    <MESSAGE value="Работает!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работает!" />
   </component>
 </project>
